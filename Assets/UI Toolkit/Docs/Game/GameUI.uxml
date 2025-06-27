@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Button text="Меню" name="Menu" style="right: 20px; top: 20px; align-items: stretch; align-self: flex-end; position: absolute;" />
+    <ui:ProgressBar value="1" name="CharacterHealth" high-value="1" style="top: 50px; align-items: stretch; width: 260px; align-self: center; height: 23px;" />
+    <ui:VisualElement name="ButtonsMenu" style="flex-grow: 1; position: relative; top: 50%; padding-bottom: 0%; align-items: center; display: flex; visibility: hidden;">
+        <ui:Button text="Начать заново" name="Restart" />
+        <ui:Button text="Выйти" name="Exit" />
+    </ui:VisualElement>
+</ui:UXML>
